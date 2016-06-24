@@ -24,6 +24,12 @@ Then, make `install.sh` script executable
 To finish, execute the script :
     ```./install.sh```
 
+### VirtualHost
 
-## With git, it's better !
-Git will be install on this box, it's very usefull ;)
+To make VirtualHost please, make sure to edit your host file
+
+    ```sudo nano /etc/hosts``` on unix systems
+
+```192.168.30.10  domain.tld```
+
+Or replace ```192.168.30.10``` by box IP in ```Vagrantfile```
