@@ -26,9 +26,11 @@ To finish, execute the script :
 
 ### VirtualHost
 
-To make VirtualHost please, make sure to edit your host file
+To make VirtualHost please, make sure to edit your host file.
+On unix systems :
 
-    ```sudo nano /etc/hosts``` on unix systems
+    sudo nano /etc/hosts
+
 
 ```192.168.30.10  domain.tld```
 
