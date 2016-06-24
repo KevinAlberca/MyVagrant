@@ -31,7 +31,6 @@ On unix systems :
 
     sudo nano /etc/hosts
 
+And add this ligne : ```192.168.30.10``` is the internal IP adress of the box ```Vagrantfile```
 
 ```192.168.30.10  domain.tld```
-
-Or replace ```192.168.30.10``` by box IP in ```Vagrantfile```
