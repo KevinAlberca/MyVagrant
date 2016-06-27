@@ -7,7 +7,7 @@ sudo apt update -y
 sudo systemctl stop php5-fpm
 sudo apt-get autoremove --purge php5* -y
 
-sudo apt-get install php7.0 php7.0-fpm php7.0-mysql php7.0-curl php7.0-json php7.0-gd php7.0-mcrypt php7.0-mbstring -y
+sudo apt-get install php7.0 php7.0-fpm php7.0-mysql php7.0-curl php7.0-json php7.0-gd php7.0-mcrypt php7.0-mbstring php7.0-xml -y
 sudo apt-get install nginx mysql-server mysql-client -y
 
 sudo apt-get purge apache2 -y
